@@ -1,0 +1,55 @@
+@go.Package { name = "freefrom.space/nobot/appConfig" }
+module nobot.AppConfig
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.5.2#/go.pkl"
+
+
+
+/// The relay URLs to use.
+open class Relays {
+  urls: List<String>
+}
+
+/// The configuration for the SQLite database.
+open class Sqlite {
+  /// The path to the SQLite database file.
+  dsn: String
+}
+
+open class Postgres {
+  /// The connection string for the Postgres database.
+  host: String
+  port: Int16
+  user: String
+  password: String
+  dbname: String
+  sslmode: String
+  timezone: String
+}
+
+open class Twitter {
+  users: List<String>
+  vipUsers: List<String>
+}
+
+open class Report {
+  publicKeys: List<String>
+  usernames: List<String>
+}
+
+open class nostr {
+  publicKeys: String
+  eventID: String
+}
+
+open class Config {
+  postgres: Postgres
+  relays: Relays
+  sqlite: Sqlite
+  twitter: Twitter
+  report: Report
+  nostr: nostr
+}
+
+newConfig: Config
+

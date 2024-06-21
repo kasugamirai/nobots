@@ -1,0 +1,72 @@
+relays:
+  urls:
+    - wss://freerelay.xyz
+    - wss://relay.damus.io
+    - wss://relayable.org
+    - wss://nos.lol
+    - wss://offchain.pub
+    - wss://nostr-pub.wellorder.net
+    - wss://relay.snort.social
+    - wss://relay.current.fyi
+
+twt:
+  users:
+    - alexbruesewitz
+    - DonaldJTrumpJr
+    - benshapiro·
+    - SSK2024
+    - EricTrump
+    - Great_Bystander
+    - cheyennexli
+    - Zealots2022
+    - Jacob43817149
+    - xchen156
+    - AMAZlNGNATURE
+    - alexbruesewitz
+    - AnnaWruiqin
+    - TheFigen_
+    - BobFu4China·
+    - elonmusk
+    - marklevinshow
+    - lude_media
+    - gunsnrosesgirl3
+    - peterpan20181
+    - sosohwa
+    - NUCLRGOLF
+    - pingzhang632
+    - liumangyan
+    - xadr666
+    - DennisPrager
+    - prageru
+    - 198920042014
+    - hu_lalalalala
+    - PGATOUR
+    - wuyuesanren
+    - rijingzhongwen
+    - jiangdaoren
+    - Jiabang1
+    - seanwei001
+    - wenqiangjp
+    - Rumoreconomy
+    - dragrnovlayins
+    - xiaxiaoqiang
+    - TheBabylonBee
+    - marklevinshow
+    - crazyclipsonly
+    - zhihui999
+    - ThebestFigen
+    - historyinmemes
+  vipUsers:
+    - laomanpindao
+    - maoshen04
+    - remonwangxt
+    - roseluqiu
+    - ZJcuichenghao
+
+discord:
+  token: "MTE4MTg4MjEyMzE2NzIxNTY2OA"
+  channelID: "1175026585364082831"
+
+nostr:
+  eventID: "08079ab700bf8122413cd99cd0df04b383880238fb511feffae640e221ac0526"
+  pubKey: "a269798bc9608bb65107a376cc4ea0ad03585025d34947b7f9d332e8d606b801"

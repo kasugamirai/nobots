@@ -1,0 +1,77 @@
+amends "../NobotConfig.pkl"
+
+newConfig {
+
+    postgres {
+      host = "db.ccjehbluyfnt.ap-northeast-1.rds.amazonaws.com"
+      port = 5432
+      user = "postgres"
+      password = "postgres"
+      dbname = "postgres"
+      sslmode = "require"
+      timezone  = "Asia/Tokyo"
+    }
+
+  sqlite {
+    dsn = "file:data.db?cache=shared&mode=rwc&_fk=1"
+  }
+
+  relays {
+    urls = List(
+      "wss://freerelay.xyz",
+      "wss://relay.damus.io",
+      "wss://relayable.org",
+      "wss://nos.lol",
+      "wss://offchain.pub",
+      "wss://nostr-pub.wellorder.net",
+      "wss://relay.snort.social",
+      "wss://relay.current.fyi"
+    )
+  }
+
+  twitter {
+    users = List(
+      "yamayamatype22",
+      "kujico_official"
+    )
+    vipUsers = List(
+      "laomanpindao",
+      "maoshen04",
+      "remonwangxt",
+      "roseluqiu",
+      "ZJcuichenghao",
+      "wangdan1989",
+      "wurenhua",
+      "leekomaki"
+    )
+  }
+
+  report {
+    publicKeys = List(
+      "0ba8984774359da2c59a4db7dc64a63edb7ded9b3605907bdd2759fd108936d2",
+      "d8a6b16744ab26c95ef119afcc2d3d8e400a60d0c941f2a0e957ec25c0cd508c",
+      "75c1d9a2f337e71c031e3fc6c5ff6bed6092b00faf5c08c03d2a064f90bdcead",
+      "13e709a54876fc46a6474181465137c7e5d199eeea743168572550b1efb96316",
+      "fd4b5311fe939954382f24a5f217645bc97dd5b49e9b4e5eb3faeba0406d52a2",
+      "18df9ec9cd1fa4e4f5a518a2d72db8e44e4cccc9b66af9a07069a2a89ea934c8",
+      "2b30ff928db5c3ca492c9794cb5a684f7bea25d8086d32f75391cab27e4a00d2",
+      "cf56638e5debe7ffad637032ac43ae47824649bd211a72b3173c83aa5142d5cc"
+    )
+    usernames = List(
+        "maoshen04",
+        "laomanpindao",
+        "remonwangxt",
+        "roseluqiu",
+        "ZJcuichenghao",
+        "wangdan1989",
+        "wurenhua",
+        "leekomaki"
+    )
+  }
+
+  nostr {
+    publicKeys = "0ba8984774359da2c59a4db7dc64a63edb7ded9b3605907bdd2759fd108936d2"
+    eventID = "0x"
+  }
+
+}

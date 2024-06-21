@@ -1,0 +1,77 @@
+.project
+.classpath
+*.iml
+.idea
+.factorypath
+
+bin/
+.DS_Store
+ObjectStore
+
+*.swp
+*.swo
+*.dump
+*.local
+
+*.tar.gz
+
+.history
+
+__debug_bin
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+#go.work
+
+# trailing * matters
+
+
+/eve/*
+!/eve/schema
+
+/chat/*
+!/chat/
+
+
+/tmp
+
+nutsdb
+
+*.zip
+
+*-env
+
+/scripts/*.json
+/rr
+/twt_rr
+/twt_rr/*.json
+
+/data/*.json
+
+/cookiesBackup/cookies.json
+/output/convertedVideo.mp4
+/output/downloaded_video.mp4
+
+*.db
+*.tmp
+
+/output
+
+conf/twt_users_cookies/*
+
+swiss

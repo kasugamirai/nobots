@@ -1,0 +1,6 @@
+.git
+.vscode
+/tmp
+/nutsdb
+
+*.db
